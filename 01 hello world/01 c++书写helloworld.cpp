@@ -2,23 +2,23 @@
 using namespace std;
 
 
-//³£Á¿¶¨Òå·½Ê½ ºê³£Á¿
+//å¸¸é‡å®šä¹‰æ–¹å¼ å®å¸¸é‡
 #define Day 7
 
 int main()
 {
 	
 	cout << "hello world" << endl;
-	//±äÁ¿
+	//å˜é‡
 	int a = 109;
 	cout << "a=" << a << endl;
-	//³£Á¿
+	//å¸¸é‡
 	const int b = 12;
-	/*»á±¨´íb = 13;
+	/*ä¼šæŠ¥é”™b = 13;
 	*/
 	cout << "b=" << b << endl;
-	cout << "Ò»ÖÜ×Ü¹²ÓĞ£º"<<Day<< "Ìì"<<endl;
-	cout << "Ò»ÖÜ´¢´æ¿Õ¼äÎª£º" << sizeof(Day)<< endl;
+	cout << "ä¸€å‘¨æ€»å…±æœ‰ï¼š"<<Day<< "å¤©"<<endl;
+	cout << "ä¸€å‘¨å‚¨å­˜ç©ºé—´ä¸ºï¼š" << sizeof(Day)<< endl;
 
 	float f1 = 3.14f;
 	double d2 = 3e10;
@@ -26,7 +26,7 @@ int main()
 	cout << sizeof(d2) << endl;
 
 	char ch = 'r';
-	cout << "Ò»ÖÜ´¢´æ¿Õ¼äÎª£º" << ch << (int)ch << endl;
+	cout << "ä¸€å‘¨å‚¨å­˜ç©ºé—´ä¸ºï¼š" << ch << (int)ch << endl;
 	 
 
 
